@@ -34,7 +34,10 @@ namespace Mapbox.Unity.Location
 		[SerializeField]
 		bool _dontDestroyOnLoad;
 
-
+        //public void FixLocation ()
+        //{
+        //    DefaultLocationProvider = _transformLocationProvider;
+        //}
 		/// <summary>
 		/// The singleton instance of this factory.
 		/// </summary>
@@ -175,12 +178,14 @@ namespace Mapbox.Unity.Location
 			{
 				Debug.LogFormat("LocationProviderFactory: Injected native Android DEVICE Location Provider - {0}", _deviceLocationProviderAndroid.GetType());
 				DefaultLocationProvider = _deviceLocationProviderAndroid;
-			}
+                //DefaultLocationProvider = _transformLocationProvider;
+            }
 			else
 			{
 				Debug.LogFormat("LocationProviderFactory: Injected DEVICE Location Provider - {0}", _deviceLocationProviderUnity.GetType());
 				DefaultLocationProvider = _deviceLocationProviderUnity;
-			}
+                //DefaultLocationProvider = _transformLocationProvider;
+            }
 		}
 	}
 }

@@ -407,37 +407,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '<b>Real World Data, Minecraft-inspired Map</b>
-
-
-    This Minecraft-inspired example demonstrates a less traditional way to consume
-    Mapbox data for maps or world construction.
-
-
-    VoxelTile is responsible for fetching both a styled raster tile and a mapbox.terrain-rgb
-    (global elevation) tile. The styled raster pixels are sampled to determine which
-    voxels to generate, via the VoxelFetcher. This is achieved using a nearest color
-    formula. The elevation tile pixels are sampled to determine where to vertically
-    place the voxels.
-
-
-    Zoom: the zoom level at which to request the tiles.
-
-
-    Elevation Multiplier: used to exaggerate the real-world height.
-
-
-    Voxel Depth Padding: determine how many voxels to spawn below the designated height.
-    This helps fill holes in environments with extreme elevation variations.
-
-
-    Tile Width in Voxels: How many voxels to generate across each tile. This will
-    affect the detail of the world. Raster textures are downsampled according to this
-    value.
-
-
-    Voxel Batch Count: The number of voxels to spawn at once. Keep this number low
-    to prevent locking the main thread during construction.'
+  m_Text: "<b>World Scale AR</b>\n\nExperience AR at the real world scale. Localize
+    the player using the GPS and AR inputs. \n\nNOTE : \nFor AR examples to work as
+    expected, please add layers (using the drop down at the top right corner of the
+    Editor window) with the following names \n\nARGameObject \nMap \nPath\nBoth"
 --- !u!114 &114699889412236512
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -544,8 +517,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114157230607012598}
   m_HandleRect: {fileID: 224907993215804030}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.4183608
+  m_Value: 0.9999985
+  m_Size: 0.90811056
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -908,7 +881,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.000015258789}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224907856650798614

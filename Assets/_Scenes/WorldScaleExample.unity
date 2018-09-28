@@ -113,6 +113,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &659224192 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1060856044390064, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+    type: 2}
+  m_PrefabInternal: {fileID: 1002213147}
+--- !u!114 &659224196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 659224192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6932c53968d35a94f8de676087afcf6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1699566596071942, guid: eb8e3c6234ac31a46b20629ab7b09cd1, type: 2}
 --- !u!1001 &1002213147
 Prefab:
   m_ObjectHideFlags: 0
@@ -265,12 +282,12 @@ Prefab:
     - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 2}
       propertyPath: _options.locationOptions.latitudeLongitude
-      value: 39.107164, 22.305556
+      value: 22.305788, 39.106838
       objectReference: {fileID: 0}
     - target: {fileID: 114427239951516970, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 2}
       propertyPath: _latitudeLongitude
-      value: 39.107164, 22.305556
+      value: 22.305788, 39.106838
       objectReference: {fileID: 0}
     - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 2}
@@ -300,7 +317,7 @@ Prefab:
     - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 2}
       propertyPath: _vectorData._layerProperty.useOptimizedStyle
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 2}
@@ -710,12 +727,12 @@ Prefab:
         type: 2}
       propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[2].materialOptions.materials.Array.data[0].Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1133601921}
+      objectReference: {fileID: 0}
     - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 2}
       propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[2].materialOptions.materials.Array.data[1].Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2004186307}
+      objectReference: {fileID: 0}
     - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 2}
       propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[2].materialOptions.atlasInfo
@@ -777,6 +794,61 @@ Prefab:
         type: 2}
       propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[2].presetFeatureType
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114561320498945516, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _heading
+      value: 91
+      objectReference: {fileID: 0}
+    - target: {fileID: 114561320498945516, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _latitudeLongitude.Array.data[0]
+      value: 22.305788, 39.106838
+      objectReference: {fileID: 0}
+    - target: {fileID: 114561320498945516, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _latitudeLongitude.Array.data[1]
+      value: 22.305714, 39.106890
+      objectReference: {fileID: 0}
+    - target: {fileID: 114561320498945516, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _latitudeLongitude.Array.data[2]
+      value: 22.305714, 39.106890
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].coreOptions.isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].coreOptions.sublayerName
+      value: New Location
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].coreOptions.snapToTerrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].spawnPrefabOptions.prefab
+      value: 
+      objectReference: {fileID: 1005887856675344, guid: 15431c105967e664d92173e3495776c4,
+        type: 2}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].categories
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].density
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071769880680478, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
@@ -955,7 +1027,7 @@ Prefab:
     - target: {fileID: 224907993215804030, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0.09188931
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224907993215804030, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
@@ -965,7 +1037,7 @@ Prefab:
     - target: {fileID: 224907993215804030, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.9890275
       objectReference: {fileID: 0}
     - target: {fileID: 224835413515161394, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
@@ -985,7 +1057,7 @@ Prefab:
     - target: {fileID: 224835413515161394, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -110.11874
+      value: -101.10943
       objectReference: {fileID: 0}
     - target: {fileID: 224835413515161394, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
@@ -995,25 +1067,12 @@ Prefab:
     - target: {fileID: 224835413515161394, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 200.23747
+      value: 182.21886
       objectReference: {fileID: 0}
     - target: {fileID: 224857786874416376, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 220.23747
-      objectReference: {fileID: 0}
-    - target: {fileID: 114603753021256032, guid: 98be219873e6d4dffb5949746f515a33,
-        type: 2}
-      propertyPath: m_Text
-      value: "<b>World Scale AR</b>\n\nExperience AR at the real world scale. Localize
-        the player using the GPS and AR inputs. \n\nNOTE : \nFor AR examples to work
-        as expected, please add layers (using the drop down at the top right corner
-        of the Editor window) with the following names \n\nARGameObject \nMap \nPath\nBoth"
-      objectReference: {fileID: 0}
-    - target: {fileID: 224857786874416376, guid: 98be219873e6d4dffb5949746f515a33,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.000015258789
+      value: 202.21886
       objectReference: {fileID: 0}
     - target: {fileID: 224907856650798614, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
@@ -1029,6 +1088,21 @@ Prefab:
         type: 2}
       propertyPath: m_SizeDelta.x
       value: -17
+      objectReference: {fileID: 0}
+    - target: {fileID: 224857786874416376, guid: 98be219873e6d4dffb5949746f515a33,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.2188416
+      objectReference: {fileID: 0}
+    - target: {fileID: 114731470950229392, guid: 98be219873e6d4dffb5949746f515a33,
+        type: 2}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114731470950229392, guid: 98be219873e6d4dffb5949746f515a33,
+        type: 2}
+      propertyPath: m_Size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 98be219873e6d4dffb5949746f515a33, type: 2}
