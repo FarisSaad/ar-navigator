@@ -5,11 +5,13 @@ using UnityEngine;
 public class SpawnAPoint : MonoBehaviour {
 
     public GameObject prefab;
+    Vector3 offset;
 
 	// Use this for initialization
 	void Start ()
     {
-        GameObject.Instantiate(prefab, gameObject.transform.position + Vector3.left * 3, Quaternion.identity);
+        offset = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
+        GameObject.Instantiate(prefab, offset, Quaternion.identity);
 	}
 	
 	// Update is called once per frame

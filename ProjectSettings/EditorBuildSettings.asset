@@ -71,6 +71,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/MapboxAR/Examples/Scenes/WorldScaleAR.unity
     guid: c60dfd6bb74264e44b3dbf93e9d129c4
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/WorldScaleExample.unity
     guid: df4079f3cd648504c824b4459badf72b
+  - enabled: 1
+    path: Assets/_Scenes/WorldScaleDemo.unity
+    guid: a7cedfabec8862e4da504d3eaaf7d884
