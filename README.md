@@ -4,7 +4,7 @@
  - [Engine: Unity3d 2017.3.1f1](https://unity3d.com)
  - [Maps Library: mapbox-unity-sdk_v1.4.5](https://www.mapbox.com/unity)
  - [AR SDK: Google AR Core](https://developers.google.com/ar)
- - [Jave Development Kit v1.8.0_181](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+ - [Java Development Kit v1.8.0_181](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
  - [Android SDK 7.1.1 (Nougat)](https://developer.android.com/studio/)
 
 
