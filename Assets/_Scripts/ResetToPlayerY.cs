@@ -9,6 +9,8 @@ public class ResetToPlayerY : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        GameObject.Find("AR Root");
+
         player = Camera.main.transform;
         transform.position = new Vector3(transform.position.x, player.transform.position.y, transform.position.z);
     }
