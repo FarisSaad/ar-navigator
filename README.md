@@ -1,10 +1,10 @@
 # ar-navigator
 
 
+* Engine: Unity3d 2017.3.1f1](https://unity3d.com)
+* Maps Library: mapbox-unity-sdk_v1.4.5](https://www.mapbox.com/unity)
+* AR SDK: Google AR Core](https://developers.google.com/ar)
 
-* Engine: Unity3d 2017.3.1f1
-* Maps Library: mapbox-unity-sdk_v1.4.5
-* AR SDK: GoogleARCore
 
 
 
